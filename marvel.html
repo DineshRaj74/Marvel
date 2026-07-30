@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Reel — My Marvel Diary</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&family=Orbitron:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="marvel.css">
+</head>
+
+<body>
+
+    <section class="Marvel-diary">
+        <div class="frame">
+            <div class="eye">
+                EXPLORE THE MULTIVERSE OF
+            </div>
+            <h1>MARVEL LEGENDS</h1>
+            <p class="sub">
+                A running log of the movies I keep coming back to —
+                one hero, one universe at a time.
+            </p>
+        </div>
+    </section>
+
+    <section class="movies">
+        <!-- New Wrapper -->
+        <div class="slider">
+            <!-- Keep same class and id -->
+            <div class="stage" id="movieStage">
+                <!-- JS will generate movie cards here -->
+            </div>
+
+        </div>
+        <div class="controls">
+            <div class="arrow" id="prevBtn">
+                <img src="./image/leftarrow.png" alt="Previous">
+            </div>
+            <div class="dots" id="dots"></div>
+            <div class="arrow" id="nextBtn">
+                <img src="./image/rightarrow.png" alt="Next">
+            </div>
+        </div>
+    </section>
+
+    <script src="marvel.js"></script>
+</body>
+
+</html>
